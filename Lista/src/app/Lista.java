@@ -35,7 +35,7 @@ public class Lista {
 			lista.add(new Funcionarios(id, nome, salario));
 		}
 
-		System.out.print("Digite o id do funcionario que tera o salario aumentado: ");
+		System.out.print("Digite o Id do funcionario que terá o salario aumentado: ");
 		int id = sc.nextInt();
 
 		System.out.print("\nDigite a porcetangem de aumento: ");
