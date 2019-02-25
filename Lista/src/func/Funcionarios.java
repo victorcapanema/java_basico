@@ -34,13 +34,11 @@ public class Funcionarios {
 		return salario;
 	}
 
-	public void setSalario(Double salario) {
-		this.salario = salario;
-	}
+
 
 	public void aumentar(double valor) {
 
-		setSalario(salario + ((salario * valor) / 100));
+		salario += ((salario * valor) / 100);
 
 	}
 
